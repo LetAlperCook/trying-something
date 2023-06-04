@@ -32,6 +32,7 @@
             textBox1 = new TextBox();
             button1 = new Button();
             textBox2 = new TextBox();
+            comboBox1 = new ComboBox();
             SuspendLayout();
             // 
             // label1
@@ -67,11 +68,21 @@
             textBox2.Size = new Size(100, 23);
             textBox2.TabIndex = 3;
             // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "topla", "çarp", "böl", "çıkar" });
+            comboBox1.Location = new Point(72, 165);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(121, 23);
+            comboBox1.TabIndex = 4;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(comboBox1);
             Controls.Add(textBox2);
             Controls.Add(button1);
             Controls.Add(textBox1);
@@ -89,5 +100,6 @@
         private TextBox textBox1;
         private Button button1;
         private TextBox textBox2;
+        private ComboBox comboBox1;
     }
 }

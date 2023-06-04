@@ -2,7 +2,7 @@ namespace software
 {
     public partial class Form1 : Form
     {
-        int result ,num1,num2 = 0;
+        int result, num1, num2 = 0;
 
         public Form1()
         {
@@ -11,17 +11,46 @@ namespace software
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            button1.Text = "sum";
+            button1.Text = "Calculate";
             label1.Text = "";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-           num1=Convert.ToInt32(textBox1.Text);
-            num2=Convert.ToInt32(textBox2.Text);
-            result = num1+num2;
-            label1.Text = result.ToString();
+            try
+            {
+                num1 = Convert.ToInt32(textBox1.Text);
+                num2 = Convert.ToInt32(textBox2.Text);
+                switch (comboBox1.SelectedItem)
+                {
+                    case "topla":
+                        result = num1 + num2;
+                        break;
+
+
+                    case "böl":
+                        result = num1 / num2;
+                        break;
+
+
+                    case "çýkar":
+                        result = num1 - num2;
+                        break;
+
+
+                    case "çarp":
+                        result = num1 * num2;
+                        break;
+                }
+                label1.Text = result.ToString();
+            }
+            catch (Exception ex) { MessageBox.Show($"Bir hata oluþtu: {ex.Message}","Hata",MessageBoxButtons.OKCancel,MessageBoxIcon.Error); }
+            
         }
+
+
+
+
     }
 }
 //merhaba
