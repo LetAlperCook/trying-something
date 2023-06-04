@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\software\\software\\software.csproj": {}
+    "C:\\Users\\HP\\Desktop\\trying-something\\software\\software\\software.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\software\\software\\software.csproj": {
+    "C:\\Users\\HP\\Desktop\\trying-something\\software\\software\\software.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\software\\software\\software.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\trying-something\\software\\software\\software.csproj",
         "projectName": "software",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\software\\software\\software.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\trying-something\\software\\software\\software.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\software\\software\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\trying-something\\software\\software\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
