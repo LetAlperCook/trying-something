@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             textBox1 = new TextBox();
             button1 = new Button();
             textBox2 = new TextBox();
@@ -70,6 +71,8 @@
             // 
             // textBox3
             // 
+            textBox3.BackColor = SystemColors.Control;
+            textBox3.ForeColor = SystemColors.MenuText;
             textBox3.Location = new Point(275, 107);
             textBox3.Name = "textBox3";
             textBox3.PlaceholderText = "Sonuç";
@@ -81,14 +84,17 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(800, 450);
             Controls.Add(textBox3);
             Controls.Add(comboBox1);
             Controls.Add(textBox2);
             Controls.Add(button1);
             Controls.Add(textBox1);
+            ForeColor = SystemColors.ControlText;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
-            Text = "Form1";
+            Text = "Alper Makinesi";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();

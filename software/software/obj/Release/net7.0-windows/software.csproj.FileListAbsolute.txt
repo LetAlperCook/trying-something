@@ -15,6 +15,7 @@ C:\Users\HP\Desktop\trying-something\software\software\obj\Release\net7.0-window
 C:\Users\HP\Desktop\trying-something\software\software\obj\Release\net7.0-windows\software.pdb
 C:\Users\HP\Desktop\trying-something\software\software\obj\Release\net7.0-windows\software.genruntimeconfig.cache
 C:\Users\HP\Desktop\trying-something\software\software\obj\Release\net7.0-windows\ref\software.dll
+C:\Users\HP\Desktop\trying-something\software\software\obj\Release\net7.0-windows\software.Properties.Resources.resources
 C:\Users\HP\Desktop\trying-something\software\software\bin\Release\net7.0-windows\software.dll.manifest
 C:\Users\HP\Desktop\trying-something\software\software\bin\Release\net7.0-windows\software.application
 C:\Users\HP\Desktop\trying-something\software\software\obj\Release\net7.0-windows\software.dll.manifest
