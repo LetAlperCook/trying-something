@@ -12,7 +12,7 @@ namespace software
         private void Form1_Load(object sender, EventArgs e)
         {
             button1.Text = "Calculate";
-            label1.Text = "";
+            comboBox1.Text = "Ýþlem Türü";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -42,10 +42,10 @@ namespace software
                         result = num1 * num2;
                         break;
                 }
-                label1.Text = result.ToString();
+                textBox3.Text = result.ToString();
             }
-            catch (Exception ex) { MessageBox.Show($"Bir hata oluþtu: {ex.Message}","Hata",MessageBoxButtons.OKCancel,MessageBoxIcon.Error); }
-            
+            catch (Exception ex) { MessageBox.Show($"Bir hata oluþtu: {ex.Message}", "Hata", MessageBoxButtons.OKCancel, MessageBoxIcon.Error); }
+
         }
 
 

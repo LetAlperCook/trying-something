@@ -1,0 +1,5 @@
+C:\Users\HP\Desktop\software.exe
+C:\Users\HP\Desktop\software.dll
+C:\Users\HP\Desktop\software.deps.json
+C:\Users\HP\Desktop\software.runtimeconfig.json
+C:\Users\HP\Desktop\software.pdb

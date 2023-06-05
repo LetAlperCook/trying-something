@@ -1,0 +1,5 @@
+C:\Users\HP\Desktop\trying-something\software\software\bin\Release\net7.0-windows\app.publish\software.exe
+C:\Users\HP\Desktop\trying-something\software\software\bin\Release\net7.0-windows\app.publish\software.dll
+C:\Users\HP\Desktop\trying-something\software\software\bin\Release\net7.0-windows\app.publish\software.deps.json
+C:\Users\HP\Desktop\trying-something\software\software\bin\Release\net7.0-windows\app.publish\software.runtimeconfig.json
+C:\Users\HP\Desktop\trying-something\software\software\bin\Release\net7.0-windows\app.publish\software.pdb

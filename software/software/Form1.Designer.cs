@@ -28,32 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
             textBox1 = new TextBox();
             button1 = new Button();
             textBox2 = new TextBox();
             comboBox1 = new ComboBox();
+            textBox3 = new TextBox();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(348, 79);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(72, 45);
+            textBox1.Location = new Point(275, 25);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(100, 23);
             textBox1.TabIndex = 1;
             // 
             // button1
             // 
-            button1.Location = new Point(203, 75);
+            button1.Location = new Point(455, 135);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 2;
@@ -63,7 +54,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(72, 107);
+            textBox2.Location = new Point(275, 187);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(100, 23);
             textBox2.TabIndex = 3;
@@ -72,21 +63,30 @@
             // 
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "topla", "çarp", "böl", "çıkar" });
-            comboBox1.Location = new Point(72, 165);
+            comboBox1.Location = new Point(440, 89);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(121, 23);
             comboBox1.TabIndex = 4;
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(275, 107);
+            textBox3.Name = "textBox3";
+            textBox3.PlaceholderText = "Sonuç";
+            textBox3.ReadOnly = true;
+            textBox3.Size = new Size(100, 23);
+            textBox3.TabIndex = 5;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox3);
             Controls.Add(comboBox1);
             Controls.Add(textBox2);
             Controls.Add(button1);
             Controls.Add(textBox1);
-            Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
@@ -95,11 +95,10 @@
         }
 
         #endregion
-
-        private Label label1;
         private TextBox textBox1;
         private Button button1;
         private TextBox textBox2;
         private ComboBox comboBox1;
+        private TextBox textBox3;
     }
 }
